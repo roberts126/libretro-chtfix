@@ -29,7 +29,7 @@ Clone into your $GOPATH/src directory.
 Run `go build` in the libretro-chtfix directory.
 
 #### Binaries
-[Ddownload](https://github.com/roberts126/libretro-chtfix/releases) a binary for your system.
+[Download](https://github.com/roberts126/libretro-chtfix/releases) a binary for your system.
 
 Symlink or add $GOPATH/src/libretro-chtfix or the binary to your $PATH variable.
 Run `libretro-chtfix -in=/path/to/cheat/file.cht`
