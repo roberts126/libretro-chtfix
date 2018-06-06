@@ -42,7 +42,7 @@ func main() {
 	if fileName != "" {
 		dirName = ""
 		pathName := getPath(fileName)
-		fileName = pathName + strings.TrimSuffix(fileName, cheatExtension)
+		fileName = pathName + fileName
 
 		readFile(fileName, newFile)
 	}
