@@ -23,10 +23,15 @@ cheat1_enable = true
 
 ## Getting Started
 
+#### Installing from source
 [Download](https://golang.org/dl/) and install golang.
 Clone into your $GOPATH/src directory.
 Run `go build` in the libretro-chtfix directory.
-Symlink or add $GOPATH/src/libretro-chtfix to your $PATH variable.
+
+#### Binaries
+[Download](https://github.com/roberts126/libretro-chtfix/releases) a binary for your system.
+
+Symlink or add $GOPATH/src/libretro-chtfix or the binary to your $PATH variable.
 Run `libretro-chtfix -in=/path/to/cheat/file.cht`
 
 CLI Options:
